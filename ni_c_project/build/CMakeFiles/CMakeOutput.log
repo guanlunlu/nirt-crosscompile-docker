@@ -1,0 +1,437 @@
+The target system is: Linux -  - x86_64
+The host system is: Linux - 6.1.0-060100rc5-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-gcc 
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/root/ni_c_project/build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-g++ 
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/root/ni_c_project/build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/ni_c_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_84110 && [1/2] Building C object CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-gcc
+Target: x86_64-nilrt-linux
+Configured with: /builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=x86_64-nilrtsdk-linux --target=x86_64-nilrt-linux --prefix=/usr/local/oecore-x86_64/sysroots --exec_prefix=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr --bindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oecore-x86_64/sysroots/share --sysconfdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/etc --sharedstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/com --localstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/var --libdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --oldincludedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --infodir=/usr/local/oecore-x86_64/sysroots/share/info --mandir=/usr/local/oecore-x86_64/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/not/exist/usr/include/c++/4.9.2 --with-build-time-tools=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-linux/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x64 --enable-poison-system-directories --with-mpfr=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-mpc=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --enable-nls --enable-__cxa_atexit --with-arch=core2 --with-tune=core2
+Thread model: posix
+gcc version 4.9.2 (GCC) 
+COLLECT_GCC_OPTIONS='--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=core2' '-march=core2'
+ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/cc1 -quiet -v -isysroot /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=core2 -auxbase-strip CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o -g -O2 -version -feliminate-unused-debug-types -o - |
+ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/as -v --64 -o CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o
+GNU assembler version 2.24 (x86_64-nilrt-linux) using BFD version (GNU Binutils) 2.24
+GNU C (GCC) version 4.9.2 (x86_64-nilrt-linux)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2, MPC version 1.0.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/gcc/x86_64-nilrt-linux/4.9.2/include"
+ignoring nonexistent directory "/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/local/include"
+ignoring nonexistent directory "/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/../../../../../../../x86_64-nilrt-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include
+ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include-fixed
+ /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include
+End of search list.
+GNU C (GCC) version 4.9.2 (x86_64-nilrt-linux)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2, MPC version 1.0.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8a841e66488927463f4cd00794aaf34a
+COMPILER_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/
+LIBRARY_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=core2' '-march=core2'
+[2/2] Linking C executable cmTC_84110
+Using built-in specs.
+COLLECT_GCC=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-gcc
+COLLECT_LTO_WRAPPER=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/lto-wrapper
+Target: x86_64-nilrt-linux
+Configured with: /builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=x86_64-nilrtsdk-linux --target=x86_64-nilrt-linux --prefix=/usr/local/oecore-x86_64/sysroots --exec_prefix=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr --bindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oecore-x86_64/sysroots/share --sysconfdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/etc --sharedstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/com --localstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/var --libdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --oldincludedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --infodir=/usr/local/oecore-x86_64/sysroots/share/info --mandir=/usr/local/oecore-x86_64/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/not/exist/usr/include/c++/4.9.2 --with-build-time-tools=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-linux/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x64 --enable-poison-system-directories --with-mpfr=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-mpc=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --enable-nls --enable-__cxa_atexit --with-arch=core2 --with-tune=core2
+Thread model: posix
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/
+LIBRARY_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_84110' '-mtune=core2' '-march=core2'
+ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/collect2 -plugin /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/liblto_plugin.so -plugin-opt=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwQin8y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -o cmTC_84110 /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtbegin.o -L/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2 -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2 -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtend.o /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include]
+    add: [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include-fixed]
+    add: [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include] ==> [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include]
+  collapse include dir [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include-fixed] ==> [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include-fixed]
+  collapse include dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include]
+  implicit include dirs: [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include;/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include-fixed;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-nilrt-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/ni_c_project/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_84110 && [1/2] Building C object CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-gcc]
+  ignore line: [Target: x86_64-nilrt-linux]
+  ignore line: [Configured with: /builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=x86_64-nilrtsdk-linux --target=x86_64-nilrt-linux --prefix=/usr/local/oecore-x86_64/sysroots --exec_prefix=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr --bindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oecore-x86_64/sysroots/share --sysconfdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/etc --sharedstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/com --localstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/var --libdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --oldincludedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --infodir=/usr/local/oecore-x86_64/sysroots/share/info --mandir=/usr/local/oecore-x86_64/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/not/exist/usr/include/c++/4.9.2 --with-build-time-tools=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-linux/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x64 --enable-poison-system-directories --with-mpfr=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-mpc=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --enable-nls --enable-__cxa_atexit --with-arch=core2 --with-tune=core2]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=core2' '-march=core2']
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/cc1 -quiet -v -isysroot /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=core2 -auxbase-strip CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o -g -O2 -version -feliminate-unused-debug-types -o - |]
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/as -v --64 -o CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU assembler version 2.24 (x86_64-nilrt-linux) using BFD version (GNU Binutils) 2.24]
+  ignore line: [GNU C (GCC) version 4.9.2 (x86_64-nilrt-linux)]
+  ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.0.0  MPFR version 3.1.2  MPC version 1.0.2]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/gcc/x86_64-nilrt-linux/4.9.2/include"]
+  ignore line: [ignoring nonexistent directory "/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/../../../../../../../x86_64-nilrt-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include]
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include-fixed]
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (GCC) version 4.9.2 (x86_64-nilrt-linux)]
+  ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.0.0  MPFR version 3.1.2  MPC version 1.0.2]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 8a841e66488927463f4cd00794aaf34a]
+  ignore line: [COMPILER_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/]
+  ignore line: [LIBRARY_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=core2' '-march=core2']
+  ignore line: [[2/2] Linking C executable cmTC_84110]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/lto-wrapper]
+  ignore line: [Target: x86_64-nilrt-linux]
+  ignore line: [Configured with: /builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=x86_64-nilrtsdk-linux --target=x86_64-nilrt-linux --prefix=/usr/local/oecore-x86_64/sysroots --exec_prefix=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr --bindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oecore-x86_64/sysroots/share --sysconfdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/etc --sharedstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/com --localstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/var --libdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --oldincludedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --infodir=/usr/local/oecore-x86_64/sysroots/share/info --mandir=/usr/local/oecore-x86_64/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/not/exist/usr/include/c++/4.9.2 --with-build-time-tools=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-linux/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x64 --enable-poison-system-directories --with-mpfr=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-mpc=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --enable-nls --enable-__cxa_atexit --with-arch=core2 --with-tune=core2]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/]
+  ignore line: [LIBRARY_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_84110' '-mtune=core2' '-march=core2']
+  link line: [ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/collect2 -plugin /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/liblto_plugin.so -plugin-opt=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwQin8y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -o cmTC_84110 /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtbegin.o -L/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2 -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2 -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtend.o /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o]
+    arg [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwQin8y.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_84110] ==> ignore
+    arg [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o] ==> obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o]
+    arg [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o] ==> obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o]
+    arg [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtbegin.o] ==> obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtbegin.o]
+    arg [-L/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2] ==> dir [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2]
+    arg [-L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib] ==> dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib]
+    arg [-L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2] ==> dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2]
+    arg [-L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib] ==> dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib]
+    arg [-L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib] ==> dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib]
+    arg [-L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib] ==> dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTC_84110.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtend.o] ==> obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtend.o]
+    arg [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o] ==> obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o]
+  collapse obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/crt1.o]
+  collapse obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/crti.o]
+  collapse obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/crtn.o]
+  collapse library dir [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2] ==> [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2]
+  collapse library dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib]
+  collapse library dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2]
+  collapse library dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib]
+  collapse library dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib]
+  collapse library dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/crt1.o;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/crti.o;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtbegin.o;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtend.o;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/crtn.o]
+  implicit dirs: [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/ni_c_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_19026 && [1/2] Building CXX object CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-g++
+Target: x86_64-nilrt-linux
+Configured with: /builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=x86_64-nilrtsdk-linux --target=x86_64-nilrt-linux --prefix=/usr/local/oecore-x86_64/sysroots --exec_prefix=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr --bindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oecore-x86_64/sysroots/share --sysconfdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/etc --sharedstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/com --localstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/var --libdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --oldincludedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --infodir=/usr/local/oecore-x86_64/sysroots/share/info --mandir=/usr/local/oecore-x86_64/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/not/exist/usr/include/c++/4.9.2 --with-build-time-tools=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-linux/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x64 --enable-poison-system-directories --with-mpfr=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-mpc=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --enable-nls --enable-__cxa_atexit --with-arch=core2 --with-tune=core2
+Thread model: posix
+gcc version 4.9.2 (GCC) 
+COLLECT_GCC_OPTIONS='--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2' '-march=core2'
+ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/cc1plus -quiet -v -isysroot /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=core2 -auxbase-strip CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o -g -O2 -version -feliminate-unused-debug-types -o - |
+ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/as -v --64 -o CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o
+GNU assembler version 2.24 (x86_64-nilrt-linux) using BFD version (GNU Binutils) 2.24
+GNU C++ (GCC) version 4.9.2 (x86_64-nilrt-linux)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2, MPC version 1.0.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/gcc/x86_64-nilrt-linux/4.9.2/include"
+ignoring nonexistent directory "/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/local/include"
+ignoring nonexistent directory "/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/../../../../../../../x86_64-nilrt-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2
+ /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2/x86_64-nilrt-linux
+ /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2/backward
+ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include
+ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include-fixed
+ /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include
+End of search list.
+GNU C++ (GCC) version 4.9.2 (x86_64-nilrt-linux)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2, MPC version 1.0.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: da4f5a0cc0c86a488c1e636dcdf4d07b
+COMPILER_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/
+LIBRARY_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2' '-march=core2'
+[2/2] Linking CXX executable cmTC_19026
+Using built-in specs.
+COLLECT_GCC=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-g++
+COLLECT_LTO_WRAPPER=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/lto-wrapper
+Target: x86_64-nilrt-linux
+Configured with: /builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=x86_64-nilrtsdk-linux --target=x86_64-nilrt-linux --prefix=/usr/local/oecore-x86_64/sysroots --exec_prefix=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr --bindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oecore-x86_64/sysroots/share --sysconfdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/etc --sharedstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/com --localstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/var --libdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --oldincludedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --infodir=/usr/local/oecore-x86_64/sysroots/share/info --mandir=/usr/local/oecore-x86_64/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/not/exist/usr/include/c++/4.9.2 --with-build-time-tools=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-linux/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x64 --enable-poison-system-directories --with-mpfr=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-mpc=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --enable-nls --enable-__cxa_atexit --with-arch=core2 --with-tune=core2
+Thread model: posix
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/
+LIBRARY_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_19026' '-shared-libgcc' '-mtune=core2' '-march=core2'
+ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/collect2 -plugin /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/liblto_plugin.so -plugin-opt=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfaW3kA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -o cmTC_19026 /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtbegin.o -L/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2 -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2 -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtend.o /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2]
+    add: [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2/x86_64-nilrt-linux]
+    add: [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2/backward]
+    add: [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include]
+    add: [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include-fixed]
+    add: [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2]
+  collapse include dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2/x86_64-nilrt-linux] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2/x86_64-nilrt-linux]
+  collapse include dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2/backward] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2/backward]
+  collapse include dir [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include] ==> [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include]
+  collapse include dir [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include-fixed] ==> [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include-fixed]
+  collapse include dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include]
+  implicit include dirs: [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2/x86_64-nilrt-linux;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2/backward;/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include;/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include-fixed;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-nilrt-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/ni_c_project/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_19026 && [1/2] Building CXX object CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-g++]
+  ignore line: [Target: x86_64-nilrt-linux]
+  ignore line: [Configured with: /builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=x86_64-nilrtsdk-linux --target=x86_64-nilrt-linux --prefix=/usr/local/oecore-x86_64/sysroots --exec_prefix=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr --bindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oecore-x86_64/sysroots/share --sysconfdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/etc --sharedstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/com --localstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/var --libdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --oldincludedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --infodir=/usr/local/oecore-x86_64/sysroots/share/info --mandir=/usr/local/oecore-x86_64/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/not/exist/usr/include/c++/4.9.2 --with-build-time-tools=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-linux/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x64 --enable-poison-system-directories --with-mpfr=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-mpc=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --enable-nls --enable-__cxa_atexit --with-arch=core2 --with-tune=core2]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2' '-march=core2']
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/cc1plus -quiet -v -isysroot /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=core2 -auxbase-strip CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o -g -O2 -version -feliminate-unused-debug-types -o - |]
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/as -v --64 -o CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU assembler version 2.24 (x86_64-nilrt-linux) using BFD version (GNU Binutils) 2.24]
+  ignore line: [GNU C++ (GCC) version 4.9.2 (x86_64-nilrt-linux)]
+  ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.0.0  MPFR version 3.1.2  MPC version 1.0.2]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/gcc/x86_64-nilrt-linux/4.9.2/include"]
+  ignore line: [ignoring nonexistent directory "/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/../../../../../../../x86_64-nilrt-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2]
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2/x86_64-nilrt-linux]
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include/c++/4.9.2/backward]
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include]
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/include-fixed]
+  ignore line: [ /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (GCC) version 4.9.2 (x86_64-nilrt-linux)]
+  ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.0.0  MPFR version 3.1.2  MPC version 1.0.2]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: da4f5a0cc0c86a488c1e636dcdf4d07b]
+  ignore line: [COMPILER_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/]
+  ignore line: [LIBRARY_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2' '-march=core2']
+  ignore line: [[2/2] Linking CXX executable cmTC_19026]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/lto-wrapper]
+  ignore line: [Target: x86_64-nilrt-linux]
+  ignore line: [Configured with: /builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=x86_64-nilrtsdk-linux --target=x86_64-nilrt-linux --prefix=/usr/local/oecore-x86_64/sysroots --exec_prefix=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr --bindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --sbindir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux --libexecdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux --datadir=/usr/local/oecore-x86_64/sysroots/share --sysconfdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/etc --sharedstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/com --localstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/var --libdir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux --includedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --oldincludedir=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/include --infodir=/usr/local/oecore-x86_64/sysroots/share/info --mandir=/usr/local/oecore-x86_64/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-nilrt-linux- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/not/exist/usr/include/c++/4.9.2 --with-build-time-tools=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-linux/usr/x86_64-nilrt-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x64 --enable-poison-system-directories --with-mpfr=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --with-mpc=/builds/Jenkins/jobs/nilrt_OE_toolchain-comms-2.0/workspace/build/tmp-glibc/sysroots/x86_64-nativesdk-nilrtsdk-linux --enable-nls --enable-__cxa_atexit --with-arch=core2 --with-tune=core2]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/]
+  ignore line: [LIBRARY_PATH=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/:/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_19026' '-shared-libgcc' '-mtune=core2' '-march=core2']
+  link line: [ /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/collect2 -plugin /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/liblto_plugin.so -plugin-opt=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfaW3kA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -o cmTC_19026 /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtbegin.o -L/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2 -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2 -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib -L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtend.o /usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o]
+    arg [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfaW3kA.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_19026] ==> ignore
+    arg [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o] ==> obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o]
+    arg [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o] ==> obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o]
+    arg [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtbegin.o] ==> obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtbegin.o]
+    arg [-L/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2] ==> dir [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2]
+    arg [-L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib] ==> dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib]
+    arg [-L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2] ==> dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2]
+    arg [-L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib] ==> dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib]
+    arg [-L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib] ==> dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib]
+    arg [-L/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib] ==> dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTC_19026.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtend.o] ==> obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtend.o]
+    arg [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o] ==> obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o]
+  collapse obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crt1.o] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/crt1.o]
+  collapse obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crti.o] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/crti.o]
+  collapse obj [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib/crtn.o] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/crtn.o]
+  collapse library dir [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2] ==> [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2]
+  collapse library dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib/../lib] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib]
+  collapse library dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2]
+  collapse library dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/../lib] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib]
+  collapse library dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib]
+  collapse library dir [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib] ==> [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/crt1.o;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/crti.o;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtbegin.o;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2/crtend.o;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/crtn.o]
+  implicit dirs: [/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/lib/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/lib;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib/x86_64-nilrt-linux/4.9.2;/usr/local/oecore-x86_64/sysroots/core2-64-nilrt-linux/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /root/ni_c_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7fea7 && [1/2] Building CXX object CMakeFiles/cmTC_7fea7.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_7fea7
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates

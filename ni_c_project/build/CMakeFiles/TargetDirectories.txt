@@ -1,0 +1,4 @@
+/root/ni_c_project/build/CMakeFiles/helloWorld.dir
+/root/ni_c_project/build/CMakeFiles/test.dir
+/root/ni_c_project/build/CMakeFiles/edit_cache.dir
+/root/ni_c_project/build/CMakeFiles/rebuild_cache.dir

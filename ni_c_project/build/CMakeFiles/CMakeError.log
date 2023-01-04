@@ -1,0 +1,42 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-gcc 
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types
+Id flags:  
+
+The output was:
+1
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find crt1.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find crti.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find crtbegin.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find -lgcc
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find -lgcc_s
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find -lc
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find -lgcc
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find -lgcc_s
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find crtend.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-g++ 
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types
+Id flags:  
+
+The output was:
+1
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find crt1.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find crti.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find crtbegin.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find -lstdc++
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find -lm
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find -lgcc_s
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find -lgcc
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find -lc
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find -lgcc_s
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find -lgcc
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find crtend.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-nilrtsdk-linux/usr/libexec/x86_64-nilrt-linux/gcc/x86_64-nilrt-linux/4.9.2/ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+

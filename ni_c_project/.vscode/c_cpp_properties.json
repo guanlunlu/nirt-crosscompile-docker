@@ -1,0 +1,20 @@
+{
+    "env": {
+      "compilerSysroots": "/usr/local/oecore-x86_64/sysroots"
+    },
+    "configurations": [
+      {
+        "name": "NI Linux Real-Time x64",
+        "compilerPath": "${compilerSysroots}/x86_64-nilrtsdk-linux/usr/bin/x86_64-nilrt-linux/x86_64-nilrt-linux-gcc",
+        "compilerArgs": [
+          "--sysroot=${compilerSysroots}/core2-64-nilrt-linux/"
+        ],
+        "includePath": [
+          "${workspaceFolder}/",
+          "${compilerSysroots}/core2-64-nilrt-linux/usr/include/"
+        ],
+        "intelliSenseMode": "gcc-x64"
+      }
+    ],
+    "version": 4
+  }
