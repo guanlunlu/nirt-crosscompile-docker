@@ -1,5 +1,5 @@
 # ninja log v5
-0	15	1672847222217361866	CMakeFiles/helloWorld.dir/root/ni_c_project/src/hello.c.o	3dc8c8e67d67352e
-1	15	1672847222217361866	CMakeFiles/test.dir/root/ni_c_project/src/test.c.o	ebe5e29ec3b9bed0
-15	23	1672847222225362176	bin/helloWorld	66788f66f2bc34c8
-15	23	1672847222225362176	bin/test	a21a83d378f5a541
+0	15	1673019104019666002	CMakeFiles/helloWorld.dir/root/ni_c_project/src/hello.c.o	3dc8c8e67d67352e
+1	15	1673019104019666002	CMakeFiles/test.dir/root/ni_c_project/src/test.c.o	ebe5e29ec3b9bed0
+15	23	1673019104027664085	bin/test	a21a83d378f5a541
+15	24	1673019104027664085	bin/helloWorld	66788f66f2bc34c8

@@ -37,7 +37,7 @@ docker run -it \
     --network host \
     --rm \
     --privileged \
-    guanlunlu/nirt-crosscompile \
+    guanlunlu/nirt-crosscompile:v2 \
     bash
 
     # -v "ni_c_project:/root/ni_c_project" \
